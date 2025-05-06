@@ -34,7 +34,7 @@ const API_RTK = () => {
 
   return (
     <div>
-      <h1>List Items</h1>
+      <h1>List Items from API</h1>
       <ul>
         {posts && posts.map((item) => <li key={item.id}>{item.title}</li>)}
       </ul>
